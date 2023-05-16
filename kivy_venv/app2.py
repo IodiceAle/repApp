@@ -37,7 +37,7 @@ class MyBoxLayout(BoxLayout):
         self.button.bind(on_press=self.send_post_request)
         
         self.buttonA = Button(text="Riempi Acqua!", size_hint=(None, None), size=(100, 44))
-        self.buttonA.bind(on_press=self.send_post_requestAcaua)
+        self.buttonA.bind(on_press=self.send_post_requestAcqua)
         self.bottom_layout = BoxLayout(orientation="horizontal", size_hint=(1, None))
         self.bottom_layout.add_widget(self.button)
         self.bottom_layout.add_widget(self.buttonA)
